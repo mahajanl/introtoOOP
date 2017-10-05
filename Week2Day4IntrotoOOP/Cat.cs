@@ -10,10 +10,10 @@ namespace Week2Day4IntrotoOOP
     {
         //STATES
         //types of STATES
-        //fields
+        //1. fields
         private string name;
 
-        //Properties - kind of like a characteristic and kind of like a method
+        //2. Properties - kind of like a characteristic and kind of like a method - MOMMA BEAR - bouncer at the club - you gotta do it through me
         public string Name
         {
             get { return this.name; }
