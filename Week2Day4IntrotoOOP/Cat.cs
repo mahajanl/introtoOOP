@@ -31,12 +31,35 @@ namespace Week2Day4IntrotoOOP
         {
             //this is an overloaded constructor - same name, different parameters, allows us to create a cat object where we assign the values right away
             //THIS IS A METHOD
+            // right below here, this is the FIELD name - after the equals signs is the PARAMETERS name  
+            // the word "this" is unneccesary  
             this.name = name;
             this.age = age;
             this.furColor = furColor;
         }
 
-        //BEHAVIORS
+        //constructors have METHODS
+        public void Eat()
+        {
+            if (isHungry == true)
+            { isHungry = false;
+            }
+            Console.WriteLine("Is the cat hungry? " +isHungry);
+
+        }
+
+        public void WorkOut()
+        { if (isHungry == false)
+            { isHungry = true;
+            }
+            Console.WriteLine("Is the cat hungry now? " +isHungry);
+        }
+
+
+
+
+
+            //BEHAVIORS
 
 
         //Constructors - allow us to create a new instance - instantiate 
