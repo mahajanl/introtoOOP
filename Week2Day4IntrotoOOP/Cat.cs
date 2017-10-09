@@ -38,6 +38,7 @@ namespace Week2Day4IntrotoOOP
             this.furColor = furColor;
         }
 
+        //behaviors
         //constructors have METHODS
         public void Eat()
         {
