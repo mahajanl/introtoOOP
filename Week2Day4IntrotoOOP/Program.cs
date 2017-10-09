@@ -10,6 +10,10 @@ namespace Week2Day4IntrotoOOP
     {
         static void Main(string[] args)
         {
+            Cat mittens = new Cat();
+            mittens.Name = "Mittens";
+
+            Cat secondCat = new Cat("Oz", 3, "orange and white");
         }
     }
 }
