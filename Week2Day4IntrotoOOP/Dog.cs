@@ -15,7 +15,7 @@ namespace Week2Day4IntrotoOOP
         private double weight;
 
         //Properties
-        public string FurLength
+        public string HairLength
         {
             get { return this.hairLength; }
             set { this.hairLength = value; }
