@@ -21,23 +21,51 @@ namespace Week2Day4IntrotoOOP
             //mittens.Eat();
             //mittens.WorkOut();
 
-            Dog firstDoge = new Dog();
-            firstDoge.Weight = 60.00;
-            firstDoge.DogHeight = 3;
-            firstDoge.HairLength = "flowing mane";
-            firstDoge.RunningSpeed = "will fetch...maybe.";
+            //Dog firstDoge = new Dog();
+            //firstDoge.Weight = 60.00;
+            //firstDoge.DogHeight = 3;
+            //firstDoge.HairLength = "flowing mane";
+            //firstDoge.RunningSpeed = "will fetch...maybe.";
 
-            firstDoge.Groom();
-                Console.WriteLine(firstDoge.HairLength);
+            //firstDoge.Groom();
+            //    Console.WriteLine(firstDoge.HairLength);
 
-            firstDoge.Run();
-            Console.WriteLine("The dog now weighs " +firstDoge.Weight);
-            Console.WriteLine(firstDoge.RunningSpeed);
+            //firstDoge.Run();
+            //Console.WriteLine("The dog now weighs " +firstDoge.Weight);
+            //Console.WriteLine(firstDoge.RunningSpeed);
 
-            firstDoge.Bark();
+            //firstDoge.Bark();
 
+            //Dog secDoge = new Dog("fluffy", 21);
+            //Console.WriteLine(secDoge.HairLength);
 
+            //secDoge.Groom();
+            //Console.WriteLine(secDoge.HairLength);
 
+            //secDoge.RunningSpeed = "faster than the speed of light";
+            //Console.WriteLine(secDoge.RunningSpeed);
+
+            //secDoge.Run();
+            //Console.WriteLine(secDoge.RunningSpeed);
+
+            //secDoge.Weight = 78.1;
+            //Console.WriteLine(secDoge.Weight);
+
+            //secDoge.Potty();
+            //Console.WriteLine(secDoge.Weight);
+
+            //secDoge.Bark();
+
+            Barbarian Hildegard = new Barbarian();
+            Hildegard.StrideLength = 4;
+            Hildegard.NumberOfTeeth = 32;
+            Hildegard.Health = 116;
+            Hildegard.ArmorType = "Drangonscale";
+            Hildegard.WeaponType = "Two-Handed Greatsword";
+
+            Console.WriteLine("Hildegard has a speed of " +Hildegard.StrideLength+ " and her weapon is " +Hildegard.WeaponType+ ".");
+
+            Console.WriteLine(Hildegard.Rage);
         }
     }
 }
