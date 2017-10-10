@@ -63,9 +63,12 @@ namespace Week2Day4IntrotoOOP
             Hildegard.ArmorType = "Drangonscale";
             Hildegard.WeaponType = "Two-Handed Greatsword";
 
-            Console.WriteLine("Hildegard has a speed of " +Hildegard.StrideLength+ " and her weapon is " +Hildegard.WeaponType+ ".");
+            Console.WriteLine("Hildegard has a speed of " +Hildegard.StrideLength+ " and her health is at " +Hildegard.Health+ ".");
+            Console.WriteLine("She comes upon a sweet looking crocodile, and decides to try and give it a pet. This, is turns out, is not a great idea, and the croc decides to give her a great SNAP with its great, powerful jaws!");
+            Console.WriteLine("\n\nHildegard is now ENRAGED!");
 
-            Console.WriteLine(Hildegard.Rage);
+            Hildegard.Rage(Hildegard.Health);
+            
         }
     }
 }

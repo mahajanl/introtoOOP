@@ -39,6 +39,7 @@ namespace Week2Day4IntrotoOOP
         { get { return this.numberOfTeeth; }
         set { this.numberOfTeeth = value; }
         }
+
         public int StrideLength
         { get { return this.strideLength; }
         set { this.strideLength = value; }
@@ -64,20 +65,22 @@ namespace Week2Day4IntrotoOOP
         }
 
         //METHODS
-        public void Rage()
-        {strideLength++;
+        public void Rage(int health)
+        {
+            strideLength++;
             health = health + 5;
-            Console.WriteLine();
+            Console.WriteLine("Hildegard's stride has increased to " +strideLength+ " and her health is now " +health+"!");
         }
 
-        public void SmooshingBaddies()
-        { weaponType = "THE MORNINGSTAR";
+        public void SmooshingBaddies(string weaponType, int health)
+        { weaponType = "MORNINGSTAR!!";
             health = health + 2;
+            Console.WriteLine("She has now unlocked a new weapon type! Congratulate Hildegard on obtaining her new " +weaponType);
         }
 
-        public void OutClassedByBaddies()
-        { numberOfTeeth = numberOfTeeth - 2;
-            health = health--;
+        public void OutClassedByBaddies(int numberOfTeeth, int health)
+        {   numberOfTeeth = numberOfTeeth - 2;
+            health--;
         }
 
         
